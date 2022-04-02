@@ -1356,6 +1356,19 @@ select {
 .banner {
   overflow: hidden;
 }
+.banner__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner__bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .banner .swiper-button-prev {
   left: 55px;
 }
@@ -1372,6 +1385,7 @@ select {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 3;
   width: 100%;
   height: 100%;
   background: #fff;
